@@ -1,0 +1,36 @@
+body
+{
+    margin: 0;
+}
+.cont
+{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 15% 1fr 2fr;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+    'hd'
+    'mn'
+    'ft'
+}
+
+header
+{
+    background-color: darkmagenta;
+    grid-area: hd;
+    width: 100%;
+}
+
+main
+{
+    background-color: lightsalmon;
+    grid-area: mn;
+    width: 100%;
+}
+
+footer
+{
+    grid-area: ft;
+    background-color: darkgoldenrod;
+}
