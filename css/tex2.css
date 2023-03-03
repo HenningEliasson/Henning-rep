@@ -34,75 +34,23 @@ main
     align-items: center;
     flex-direction: column;
 }
-main p
+main h1
 {
   margin: 0;
+}
+main h2
+{
+  margin: 5vh;
 }
 
 footer
 {
     grid-area: ft;
     background-color: wheat;
-}
-.kvitto-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
-
-.kvitto {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-  height: 400px;
-  background-color: #ffffff;
-  border: 1px solid #e6e6e6;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.kvitto-header {
-  padding: 20px;
-  font-size: 24px;
-  font-weight: bold;
-  color: #333333;
-  border-bottom: 1px solid #e6e6e6;
-}
-
-.kvitto-body {
-  flex-grow: 1;
-  padding: 20px;
-  font-size: 16px;
-  color: #666666;
-}
-
-.kvitto-body-img
-{
-  width: 100px;
-}
-
-.kvitto-footer {
-  padding: 20px;
-  font-size: 16px;
-  color: #000000;
-  border-top: 1px solid #e6e6e6;
-}
-
-.Totalsumma
-{
-  text-decoration: underline;
-}
-
-.green-btn {
-  padding: 10px 20px;
-  background-color: #2b9e2b;
-  color: #ffffff;
-  border: none;
-  border-radius: 4px;
-  font-size: 16px;
-  cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 nav
@@ -136,8 +84,18 @@ a
   color: black;
 }
 
-.varning
+.bubbla
 {
-  height: 4vh;
-  align-self: flex-end;
+    height: 10vh;
+    width: 40vw;
+    background-color: white;
+    border-radius: 15%;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.bubbla p
+{
+    margin: 5px;
 }
