@@ -1,1 +1,3 @@
-alert("just det, sidan är ju trasig")
+document.addEventListener("DOMContentLoaded", () => {
+alert("just det, sidan är ju trasig");
+});
