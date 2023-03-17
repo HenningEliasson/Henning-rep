@@ -160,3 +160,12 @@ a
   cursor: pointer;
   visibility: hidden;
 }
+
+.voice
+{
+  background-color: #2b9e2b;
+  margin-top: 15px;
+  width: 25vw;
+  height: 5vh;
+  border-radius: 10px;
+}

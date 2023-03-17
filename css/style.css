@@ -131,3 +131,9 @@ a
   text-decoration: none;
   color: black;
 }
+.voice
+{
+  background-color: #2b9e2b;
+  margin-top: 15px;
+  border-radius: 10px;
+}
