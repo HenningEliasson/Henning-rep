@@ -23,17 +23,10 @@ function chang2() {
 }
 
 var z = document.getElementById("myAudio3"); 
+var za = document.getElementById("myAudio3.1"); 
+var zb = document.getElementById("myAudio3.2"); 
+var zb = document.getElementById("myAudio3.3"); 
 
 function playAudio3() { 
   z.play(); 
-} 
-
-
-if (i = 1){
-  document.getElementById("butt").style.visibility = "visible";
-}
-var a = document.getElementById("myAudio"); 
-
-function playAudio4() { 
-  a.play(); 
 } 
