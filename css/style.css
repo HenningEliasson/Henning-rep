@@ -1,7 +1,7 @@
 body
 {
     margin: 0;
-    overflow-x: 0;
+    overflow-x: hidden;
 }
 .cont
 {
@@ -136,4 +136,35 @@ a
   background-color: #2b9e2b;
   margin-top: 15px;
   border-radius: 10px;
+}
+
+@media screen and (min-width: 600px) {
+  .logga
+  {
+    width: 30vw;
+  }
+  .cont
+  {
+    grid-template-rows: 20% 1.5fr 4fr 5%;
+  }
+  .card
+  {
+    width: 30vw;
+  }
+  .card img
+  {
+    width: 40%;
+    margin: 5px;
+  }
+  .kop_button
+  {
+    margin-bottom: 10px;
+  }
+  nav
+  {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+  }
 }

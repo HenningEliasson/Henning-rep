@@ -1,4 +1,4 @@
-const myTimeout = setTimeout(arg, 6000);
+const myTimeout = setTimeout(arg, 5000);
 
 function arg(){
     window.location.href = 'texarg1.html';
