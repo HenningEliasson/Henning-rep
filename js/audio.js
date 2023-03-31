@@ -22,11 +22,30 @@ function chang2() {
     document.getElementById("pil").style.visibility = "visible";
 }
 
-var z = document.getElementById("myAudio3"); 
-var za = document.getElementById("myAudio3.1"); 
-var zb = document.getElementById("myAudio3.2"); 
-var zb = document.getElementById("myAudio3.3"); 
+var d = document.getElementById("myAudio3"); 
+var a = document.getElementById("myAudio3.1"); 
+var b = document.getElementById("myAudio3.2"); 
+var c = document.getElementById("myAudio3.3"); 
+
+const characters ='0123';
+
+function generateString(length) {
+  console.log("Has entered function")
+    let result = ' ';
+    const charactersLength = characters.length;
+    for ( let i = 0; i < length; i++ ) {
+        result += characters.charAt(Math.floor(Math.random() * charactersLength));
+    }
+    console.log(result)
+    return result;
+}
+bigArray = [d,a,b,c]
+
+
+
 
 function playAudio3() { 
-  z.play(); 
+  var inter = generateString(1);
+  var player = Number(inter);
+  bigArray[player].play(); 
 } 

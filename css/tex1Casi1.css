@@ -115,6 +115,7 @@ nav
     display: flex;
     padding: 5%;
     justify-content: space-between;
+
 }
 
 .pil
@@ -178,7 +179,7 @@ a
   }
   .cont
   {
-    grid-template-rows: 20% 1.5fr 4fr 5%;
+    grid-template-rows: 20% 1.5fr 4fr 13%;
   }
   nav
   {
