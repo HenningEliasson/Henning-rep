@@ -1,7 +1,6 @@
 document.getElementById("green-btn").addEventListener("click", notwork);
 
-function notwork() 
-{
+function notwork() {
   alert("Funkar inte knappen?");
   alert("Testa denna");
   document.getElementById("other-btn").style.visibility = "visible";
@@ -9,7 +8,6 @@ function notwork()
 
 document.getElementById("other-btn").addEventListener("click", change);
 
-function change()
-{
-    window.location.href = 'megaräknare.html';
+function change() {
+  window.location.href = 'megaräknare.html';
 }
